@@ -1,0 +1,141 @@
+/* HomeSlider.css */
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.8s ease;
+  box-sizing: border-box;
+  background-color: rgb(9, 49, 49);
+}
+
+.slide.active {
+  left: 0;
+  opacity: 1;
+}
+
+.slide-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.text-content {
+  max-width: 50%;
+  position: absolute;
+  left: 10%;
+}
+
+.text-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+ font-weight: 700;
+  /* color: #333; */
+  margin-top: 0.5rem;
+}
+.subtext{
+    font-size: 1.2rem;
+    color: #333;
+}
+.price {
+  margin: 1rem 0;
+  font-size: 1.3rem;
+}
+
+.price .new {
+  font-weight: bold;
+}
+
+.price .old {
+  text-decoration: line-through;
+  color: gray;
+  margin-left: 10px;
+}
+
+.buy-btn {
+  padding: 0.7rem 1.5rem;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.white-text {
+  color: white;
+}
+
+.white-text .buy-btn {
+  background-color: white;
+  color: black;
+}
+
+.white-text .price .old {
+  color: #ddd;
+}
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.3s;
+  border-radius: 50%;
+}
+
+.nav-btn:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
+.dots {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: lightgray;
+  border-radius: 50%;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: black;
+}

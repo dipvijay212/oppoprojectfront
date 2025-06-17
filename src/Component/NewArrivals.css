@@ -1,0 +1,16 @@
+ .new-arrivals-wrapper {
+  width: 95.1%;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.banner img{
+    height: 350px;
+    width: 100%;
+}

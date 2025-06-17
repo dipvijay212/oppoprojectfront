@@ -1,0 +1,55 @@
+.accessories-section {
+  padding: 2rem;
+  background: #f9fafa;
+}
+
+.accessories-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.accessories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.accessories-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  position: relative;
+  text-align: center;
+}
+
+.accessories-badge {
+  position: absolute;
+  top: 0.8rem;
+  left: 0.8rem;
+  font-size: 0.75rem;
+  background: #f4f4f4;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #444;
+}
+
+.accessories-img {
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.accessories-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #111;
+}
+
+.old-price {
+  margin-left: 0.5rem;
+  color: #888;
+  font-size: 0.9rem;
+  text-decoration: line-through;
+}

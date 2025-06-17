@@ -1,0 +1,60 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.filter-container {
+  padding: 40px;
+  background-color: #fcfcfc;
+  text-align: center;
+}
+
+.filter-container h3 {
+  font-size: 18px;
+  color: #555;
+}
+
+.filter-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.filters select {
+  width: 250px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  background: white;
+}
+
+.filter-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.reset {
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.apply-btn {
+  background-color: black;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}

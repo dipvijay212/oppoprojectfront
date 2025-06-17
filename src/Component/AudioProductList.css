@@ -1,0 +1,54 @@
+.audio-section {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  text-align: center; 
+}
+.audio-section h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.audio-section p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.audio-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.audio-grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.audio-card {
+  background: #fff;
+  padding: 1rem;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  position: relative;
+}
+
+.audio-badge {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 8px;
+}
+
+.audio-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.audio-price {
+  font-size: 18px;
+  font-weight: bold;
+}

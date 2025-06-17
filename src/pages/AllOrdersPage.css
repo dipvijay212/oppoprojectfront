@@ -1,0 +1,13 @@
+.all-orders-page {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.order-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
